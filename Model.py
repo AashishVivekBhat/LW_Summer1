@@ -3,7 +3,7 @@ import numpy
 from sklearn.linear_model import LinearRegression
 
 ds = pandas.read_csv('SalaryData.csv')
-x = ds['YearExperience'].values.reshape(30,1)
+x = ds['YearsExperience'].values.reshape(30,1)
 y = ds['Salary']
 
 Model = LinearRegression
