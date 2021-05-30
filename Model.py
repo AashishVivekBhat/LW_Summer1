@@ -14,5 +14,4 @@ Model.coef_
 
 val = float(input("Enter the Experience : "))
 output = Model.predict( [[val]] )
-print("\nEstimated Salary : ")
-print(output)
+print("\nEstimated Salary : ",output)
